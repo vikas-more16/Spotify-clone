@@ -91,13 +91,21 @@ nav ul li{
 
 
 .songItem img{
-    height: 40px;
+    height: 6vh;
     
     border-radius: 50%;
     cursor: pointer;
 }
+
+.songItem span {
+    display: block;
+    align-content: center;
+}
 .songItem span i{
     cursor: pointer;
+    height: 3vh;
+    display: flex;
+    align-items: center;
 }
 .songInfo img{
     height: 10px;
