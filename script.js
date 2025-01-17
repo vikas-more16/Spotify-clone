@@ -155,8 +155,6 @@ songItemPlay.forEach((element) => {
                     durationspan[0].innerText = formatDuration(audio.duration);
                 });
             } else {
-                console.log("playindex != songindex");
-            audioElement.src = `songs/${songIndex}.mp3`;
             audioElement.pause();
             gif.style.opacity = 0;
             e.target.classList.remove("fa-circle-pause");
